@@ -14,4 +14,13 @@ This is a reference list of the most commonly used Git commands. (You might cons
     Commands related to checking status or log history
         git status
         git log
+        
+    Commands to commit
+    	git add .
+    	OR
+    	git add -A (to add all unstage files to the staging area)
+    	then
+    	git commit -m "<Note explaining what was done>"
+    	then
+    	git push origin main
 
